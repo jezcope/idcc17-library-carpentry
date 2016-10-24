@@ -2,8 +2,12 @@
 
 Authors:
 
-- Jez Cope, University of Sheffield, United Kingdom
-- James Baker, University of Sussex, United Kingdom
+- [Jez Cope](http://jcope.shef.ac.uk),
+  [The University Library, University of Sheffield](http://sheffield.ac.uk/library),
+  United Kingdom
+- [James Baker](http://www.sussex.ac.uk/profiles/371022),
+  [Sussex Humanities Lab, University of Sussex](http://www.sussex.ac.uk/shl/about/),
+  United Kingdom
 
 ***************************************************************
 
