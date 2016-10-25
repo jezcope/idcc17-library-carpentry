@@ -1,15 +1,11 @@
-# Library Carpentry: software skills training for library professionals
-
-Authors:
-
-- [Jez Cope](http://jcope.shef.ac.uk),
-  [The University Library, University of Sheffield](http://sheffield.ac.uk/library),
-  United Kingdom
-- [James Baker](http://www.sussex.ac.uk/profiles/371022),
-  [Sussex Humanities Lab, University of Sussex](http://www.sussex.ac.uk/shl/about/),
-  United Kingdom
-
-***************************************************************
+---
+title: "Library Carpentry: software skills training for library professionals"
+author:
+  - name: Jez Cope
+    affiliation: The University Library, University of Sheffield
+  - name: James Baker
+    affiliation: Sussex Humanities Lab, University of Sussex
+---
 
 Much time and energy is now being devoted to developing the skills of researchers in the related areas of data analysis and data management. However, less attention is currently paid to developing the data skills of librarians themselves: these skills are often brought in by recruitment in niche areas rather than considered as a wider development need for the library workforce, and are not widely recognised as important to the professional career development of librarians. We believe that building computational and data science capacity *within* academic libraries will have direct benefits for both librarians and the users we serve.
 
@@ -30,10 +26,10 @@ Library Carpentry has four main guiding principles.
 
 In its initial exploratory run, Library Carpentry took the form of [four three-hour sessions held at the City University London Centre for Information Science](http://librarycarpentry.github.io/outline/) across four successive Monday evenings. These sessions -- held in November 2015 and funded by the Software Sustainability Institute -- attracted 59 participants from 14 institutions in London and its environs. Lessons were team developed and team taught, and were published CC-BY, building on earlier material developed for the British Library Digital Scholarship Training Programme, Software Carpentry, and the Programming Historian. They covered:
 
-- regular expressions (patterns that match character combinations)
-- the Unix shell (a command line user interface)
-- git (a version control tool)
-- OpenRefine (an interactive data cleanup tool) 
+1. regular expressions (patterns that match character combinations)
+2. the Unix shell (a command line user interface)
+3. git (a version control tool)
+4. OpenRefine (an interactive data cleanup tool) 
 
 Since then, 13 Library Carpentry workshops have been organised, training well in excess of 250 librarians in 7 countries across 4 continents: in Australia, Canada, Denmark, Norway, South Africa, Switzerland, and the USA. During the [Mozilla Science Lab Global Sprint (2-3 June 2016)](https://science.mozilla.org/programs/events/global-sprint-2016), an international team developed module materials, added a new module on SQL (a relational database management language), assigned administrative roles required to support future development, and republished the materials using the Data Carpentry lesson template. Library Carpentry now has a distributed management and maintenance structure.
 
