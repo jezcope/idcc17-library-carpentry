@@ -5,6 +5,7 @@ author:
     affiliation: The University Library, University of Sheffield
   - name: James Baker
     affiliation: Sussex Humanities Lab, University of Sussex
+bibliography: references.bib
 ---
 
 # Introduction
@@ -19,7 +20,7 @@ Further, liaison and research support librarians are increasingly expected to fa
 
 # What is Library Carpentry?
 
-[Library Carpentry](http://librarycarpentry.github.io) is a global effort to provide training to librarians in technical areas that have traditionally been seen as the preserve of researchers, IT support and systems librarians. Established non-profit volunteer organisations such as Software Carpentry and Data Carpentry offer introductory research software skills training with a focus on the needs and requirements of research scientists. Library Carpentry is a comparable introductory software skills training programme with a focus on the needs and requirements of library and information professionals.
+[Library Carpentry](http://librarycarpentry.github.io) [@baker_library_2016] is a global effort to provide training to librarians in technical areas that have traditionally been seen as the preserve of researchers, IT support and systems librarians. Established non-profit volunteer organisations such as Software Carpentry and Data Carpentry offer introductory research software skills training with a focus on the needs and requirements of research scientists. Library Carpentry is a comparable introductory software skills training programme with a focus on the needs and requirements of library and information professionals.
 
 Library Carpentry has four main guiding principles.
 
@@ -49,3 +50,6 @@ Since then, 13 Library Carpentry workshops have been organised, training well in
 
 # Future plans
 
+
+
+# Bibliography
