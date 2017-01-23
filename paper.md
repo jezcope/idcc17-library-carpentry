@@ -40,9 +40,33 @@ In its initial exploratory run, Library Carpentry took the form of [four three-h
 
 Since then, 13 Library Carpentry workshops have been organised, training well in excess of 250 librarians in 7 countries across 4 continents: in Australia, Canada, Denmark, Norway, South Africa, Switzerland, and the USA. During the [Mozilla Science Lab Global Sprint (2-3 June 2016)](https://science.mozilla.org/programs/events/global-sprint-2016), an international team developed module materials, added a new module on SQL (a relational database management language), assigned administrative roles required to support future development, and republished the materials using the Data Carpentry lesson template. Library Carpentry now has a distributed management and maintenance structure.
 
+***TODO: Something here about lack of repeat in the UK so far? ***
+
 # Challenges
 
+There are some interesting challenges involved in making this type of training work.
+First and foremost,
+it is a significant amount of time to spend out of the office for anyone,
+particularly at a time when budgets are being cut and staff are under pressure to get work done.
+It's well known from experience with Software and Data Carpentry
+that learners benefit most from such training when they are able to attend in a group of colleagues who work together regularly.
+***TODO: citation***
+This works for two key reasons:
 
+1. It enables learners to have relevant conversations about what they are learning in the context of issues they deal with in the course of their own work
+2. It creates the seed of a community of practice within their own workplace, providing peer support to aid embedding of the new skills and further self-directed learning
+
+A typical Library Carpentry course requires the equivalent of two full days out of the office.
+This potentially requires a significant number of librarians from the same service
+
+Ways of dealing with it:
+
+- Run workshops in the evening
+- Do full days but separate them
+- Schedule to avoid busy times (e.g. financial year end, term-time)
+- Help attendees make a strong case for the value and relevance of the training
+
+Difficulty of finding suitable instructors
 
 # Where are we now?
 
