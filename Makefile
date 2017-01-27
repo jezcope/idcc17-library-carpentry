@@ -18,10 +18,10 @@ abstract.odt: abstract.md abstract-template.fodt
 abstract-anon.odt: abstract.md abstract-template-anon.fodt
 	pandoc -f markdown -t odt --template=abstract-template-anon.fodt -o abstract-anon.odt abstract.md
 
-%.pdf: %.md idcc-template.tex
+%.pdf: %.md idcc-template.tex references.bib
 	pandoc -f markdown -t latex --template=idcc-template.tex ${PANDOC_OPTS} -o $@ $<
 
-%.tex: %.md idcc-template.tex
+%.tex: %.md idcc-template.tex references.bib
 	pandoc -f markdown -t latex --template=idcc-template.tex ${PANDOC_OPTS} -o $@ $<
 
 ${SUBMISSION_NAME}.zip: paper.tex paper.pdf
