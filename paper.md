@@ -59,39 +59,6 @@ Library Carpentry[^lc] [@baker_library_2016] is
 a global effort to provide training to librarians
 in technical areas that have traditionally been seen as the preserve of
 researchers, IT support and systems librarians.
-These skills include:
-
-Version control
-: The use of tools such as `git`[^git] and GitHub[^gh],
-  which enable the full version history of a set of files to be
-  tracked and shared,
-  including features to merge changes made by multiple collaborators
-  Version control is a foundational good practice
-  for any kind of programming,
-  however simple.
-
-Shell/command line
-: A command-line is an alternative way of interacting with a computer
-  by typing in commands to be run,
-  either one at a time or in batches.
-  Although appearing intimidating to beginners,
-  the command-line is a powerful, flexible and efficient way to perform
-  data processing tasks,
-  especially when combining multiple commands into shell scripts or batch files.
-
-Databases
-: 
-
-OpenRefine
-: 
-
-Scripting languages
-: 
-  
-
-[^git]: <https://git-scm.org>
-[^gh]: <https://github.com>
-
 Established non-profit volunteer organisations such as Software Carpentry [@wilson_software_2006] and Data Carpentry [@teal_data_2015]
 offer introductory research software skills training with a focus on the needs and requirements of research scientists.
 Library Carpentry is a comparable introductory software skills training programme
@@ -136,6 +103,51 @@ Following the pilot course in London in ***TODO: month*** 2015,
 > This transmission of skills through professional networks seeks to turn trainees into trainers,
 > thereby also deepening the skill set of the community."
 
+The skills identified as being valuable to librarians include:
+
+Regular expressions
+: Regular expressions (or regexes) are a a concise and flexible system for
+  searching text and extracting key parts.
+
+Shell/command line
+: A command-line is an alternative way of interacting with a computer
+  by typing in commands to be run,
+  either one at a time or in batches.
+  Although appearing intimidating to beginners,
+  the command-line is a powerful, flexible and efficient way to perform
+  data processing tasks,
+  especially when combining multiple commands into shell scripts or batch files.
+
+Version control
+: The use of tools such as `git`[^git] and GitHub[^gh],
+  which enable the full version history of a set of files to be
+  tracked and shared,
+  including features to merge changes made by multiple collaborators
+  Version control is a foundational good practice
+  for any kind of programming,
+  however simple.
+
+Databases
+: Relational database management systems (RDBMS)
+  lie at the heart of most computer systems in use in libraries.
+  Usually these are accessed through a graphical user interface
+  but knowledge
+
+OpenRefine
+: Originally developed as Google Refine before being open-sourced,
+  OpenRefine is a powerful yet user-friendly data-cleaning tool.
+  Features such as regular expressions and text clustering
+  allow for flexible restructuring and error correction
+  across hundreds of thousands of entries in minutes.
+
+Scripting languages
+:
+
+[^git]: <https://git-scm.org>
+[^gh]: <https://github.com>
+
+Between them, these skills provide a toolbox which can enable
+
 # Development of Library Carpentry #
 
 In its initial exploratory run,
@@ -154,7 +166,7 @@ They covered:
 1. regular expressions (patterns that match character combinations)
 2. the Unix shell (a command line user interface)
 3. git (a version control tool)
-4. OpenRefine (an interactive data cleanup tool) 
+4. OpenRefine (an interactive data cleanup tool)
 
 The material for each of these original lessons
 was developed primarily by the lead instructor for that lesson,
@@ -173,10 +185,11 @@ the materials were developed using GitHub as an online collaborative platform.
 They were developed completely in the open from the start,
 an approach which has led to unsolicited but welcome contributions
 from a number of directions.
-The Data Carpentry lesson templates and GitHub Pages[^ghpages]
-provided a consistent structure and free web hosting.
+GitHub Pages[^ghpages] provided seamless free web hosting
+on top of the GitHub repositories already in use for lesson development
+enabling us to deliver this content openly on the web at no cost.
 
-[^ghpages]: ***TODO: link***
+[^ghpages]: <https://pages.github.com/>
 
 Since then,
 13 Library Carpentry workshops have been organised,
@@ -189,9 +202,15 @@ assigned administrative roles required to support future development,
 and republished the materials using the Data Carpentry lesson template.
 Library Carpentry now has a distributed management and maintenance structure.
 
-The material continues to develop
+The Data Carpentry lesson template
+provided a consistent structure to the lessons
+and prompted the addition of a number of aspects which had previously been omitted due to time constraints, particularly
 
+The material continues to develop,
+with the growing community regularly discussing issues and questions
+in a dedicated open online discussion channel[^gitter].
 
+[^gitter]: <https://gitter.im/weaverbel/LibraryCarpentry>
 
 # Challenges #
 
@@ -202,14 +221,15 @@ First and foremost,
 it is a significant amount of time to spend out of the office for anyone,
 particularly at a time when budgets are being cut and staff are under pressure to get work done.
 It's well known from experience with Software and Data Carpentry
-that learners benefit most from such training when they are able to attend in a group of colleagues who work together regularly.
-***TODO: citation***
+that learners benefit most from such training
+when they are able to attend in a group of colleagues who work together regularly
+[see e.g. @wilson_software_2016].
 This works for two key reasons:
 
 1. It enables learners to have relevant conversations about what they are learning
-in the context of issues they deal with in the course of their own work
+   in the context of issues they deal with in the course of their own work
 2. It creates the seed of a community of practice within their own workplace,
-providing peer support to aid embedding of the new skills and further self-directed learning
+   providing peer support to aid embedding of the new skills and further self-directed learning
 
 Modelled after Software Carpentry,
 a typical Library Carpentry course requires the equivalent of two full days out of the office.
@@ -220,7 +240,7 @@ This hits hits a sweet spot described by @wilson_software_2016:
 
 This potentially requires a significant number of librarians from the same service
 to be away from their desks for a significant period.
-This is likely to be difficult to arrange, 
+This is likely to be difficult to arrange,
 but we are developing several variations that help combat this.
 
 The first workshops were run in the evenings after work,
@@ -263,13 +283,11 @@ with the right combination of experience and expertise.
 
 In November 2016, James Baker and the international Library Carpentry team
 were awarded the 2016 British Library Labs Teaching/Learning Award[^award].
-
+As well as the recognition of a job well-done,
+this award also came with a small cash prize
+which is being used to facilitate further workshops.
 
 [^award]: <http://labs.bl.uk/British+Library+Labs+Awards>
-
-
-
-# Future plans #
 
 ***TODO: Call to action!***
 
@@ -280,6 +298,11 @@ and only starting to grow through the hard work of a growing number of volunteer
 We need:
 
 - People willing to organise and run Library Carpentry courses
-- Library Carpentry instructors, both experienced 
+- Library Carpentry instructors, both experienced and fresh (Software or Data Carpentry instructor certification is helpful but not required at this stage)
+- Technical experts and librarians to contribute
+
+# Acknowledgements #
+
+
 
 # Bibliography #
