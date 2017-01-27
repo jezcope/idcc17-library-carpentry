@@ -1,4 +1,5 @@
+*.pdf
+*.zip
 abstract.odt
 abstract-anon.odt
-abstract.pdf
-paper.pdf
+paper.tex
