@@ -5,10 +5,21 @@ author:
     affiliation: The University Library, University of Sheffield
   - name: James Baker
     affiliation: Sussex Humanities Lab, University of Sussex
+correspondence:
+  name: Jez Cope
+  address: The University Library, University of Sheffield, Western Bank, Sheffield S10 2TN
+  email: j.s.cope@sheffield.ac.uk
+date: 2017
+submitted: 20th October 2016
+documentclass: idcc
+classoption:
+  - 17
 bibliography: references.bib
+biblatex: true
+biblio-style: apa
 ---
 
-# Introduction
+# Introduction #
 
 Much time and energy is now being devoted to developing the skills of researchers
 in the related areas of data analysis and data management.

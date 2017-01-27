@@ -5,6 +5,9 @@ author:
     affiliation: The University Library, University of Sheffield
   - name: James Baker
     affiliation: Sussex Humanities Lab, University of Sussex
+documentclass: idcc
+classoption:
+  - 17
 ---
 
 Much time and energy is now being devoted to developing the skills of researchers in the related areas of data analysis and data management. However, less attention is currently paid to developing the data skills of librarians themselves: these skills are often brought in by recruitment in niche areas rather than considered as a wider development need for the library workforce, and are not widely recognised as important to the professional career development of librarians. We believe that building computational and data science capacity *within* academic libraries will have direct benefits for both librarians and the users we serve.
