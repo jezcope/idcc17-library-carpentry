@@ -47,7 +47,8 @@ but there are many tools commonly used by data scientists
 to make the process not only easier but more reproducible and hence more transparent.
 
 Further,
-liaison and research support librarians are increasingly expected to facilitate researchers' data needs.
+liaison and research support librarians are increasingly expected to
+facilitate researchers' data needs.
 There is no expectation that we should become researchers ourselves
 (at least in the UK where librarians are not typically expected to hold doctorates),
 but learning some of these skills and applying them in our own work
@@ -60,11 +61,12 @@ a global effort to provide training to librarians
 in technical areas that have traditionally been seen as the preserve of
 researchers, IT support and systems librarians.
 Established non-profit volunteer organisations such as Software Carpentry [@wilson_software_2006] and Data Carpentry [@teal_data_2015]
+--- below abbreviated to SWC and DC respectively ---
 offer introductory research software skills training with a focus on the needs and requirements of research scientists.
 Library Carpentry is a comparable introductory software skills training programme
 with a focus on the needs and requirements of library and information professionals.
 
-[^lc]: <http://librarycarpentry.github.io>
+[^lc]: Library Carpentry homepage: <http://librarycarpentry.github.io>
 
 Software Carpentry was developed in response to an overwhelming and unmet demand for
 training in good software engineering practice from physical scientists and engineers.
@@ -75,7 +77,7 @@ but its current and most successful form is built on the following principles:
 > - Instructors volunteer their time, while workshop host sites cover their travel and accommodation costs.
 > - Instructors use live coding instead of slides while learners following along on their own machines."
 
-[^swc]: <https://software-carpentry.org/scf/history/>
+[^swc]: Software Carpentry history: <https://software-carpentry.org/scf/history/>
 
 Following the pilot course in London in November 2015,
 @baker_library_2016 developed the following for Library Carpentry:
@@ -131,22 +133,45 @@ Databases
 : Relational database management systems (RDBMS)
   lie at the heart of most computer systems in use in libraries.
   Usually these are accessed through a graphical user interface
-  but knowledge
+  but understanding of the way such databases are structured
+  and a little knowledge of the Structured Query Language (SQL) used to access them
+  opens up many new possibilities.
 
 OpenRefine
-: Originally developed as Google Refine before being open-sourced,
+: Originally developed at Google before being open-sourced,
   OpenRefine is a powerful yet user-friendly data-cleaning tool.
   Features such as regular expressions and text clustering
   allow for flexible restructuring and error correction
-  across hundreds of thousands of entries in minutes.
+  across hundreds of thousands of entries in minutes or even seconds.
 
 Scripting languages
-:
+: Modern high-level languages such as Python, Ruby, R and JavaScript
+  have greatly lowered the barrier to entry for new programmers.
+  Not only are they much more forgiving of mistakes than their predecessors,
+  they also come with huge toolboxes to help automate almost any task,
+  whether built-in or developed by members of the community.
 
-[^git]: <https://git-scm.org>
-[^gh]: <https://github.com>
+[^git]: `git` version control system: <https://git-scm.org>
+[^gh]: GitHub: <https://github.com>
 
-Between them, these skills provide a toolbox which can enable
+Between them, these skills provide a set of tools of great value to the modern librarian.
+For example, they may help a librarian to:
+
+- Automate common tasks, providing both a streamlined workflow and precise documentation of the process
+- Quickly reformat, convert and fix hundreds of thousands of metadata records
+- Unify inconsistent data for reporting, such as usage reports from multiple suppliers
+- Create a dashboard visualising key aspects of that cleaned data
+  that can be updated from live sources in seconds rather than hours of manual work
+
+These benefits, while attractive, can seem quite daunting to the beginner.
+However, even a small amount of insight into how computers work and what might be possible
+can lead to improved communication with technical colleagues
+and a corresponding increase in the value placed on their expertise.
+In addition,
+creation of communities of practice is an explicit aim of Library Carpentry training
+so that learners are empowered to continue exploring and learning with their colleagues.
+The skills described above, while being more than adequate for some,
+can provide a platform for others on which they can continue to build.
 
 # Development of Library Carpentry #
 
@@ -158,9 +183,9 @@ These sessions
 attracted 59 participants from 14 institutions in London and its environs.
 Lessons were team developed and team taught,
 and were published under a CC-BY license,
-building on earlier material developed for the British Library Digital Scholarship Training Programme,
-Software Carpentry,
-and the Programming Historian.
+building on earlier material developed for
+the British Library Digital Scholarship Training Programme,
+Software Carpentry, and the Programming Historian.
 They covered:
 
 1. regular expressions (patterns that match character combinations)
@@ -168,7 +193,7 @@ They covered:
 3. git (a version control tool)
 4. OpenRefine (an interactive data cleanup tool)
 
-[^firstrun]: <http://librarycarpentry.github.io/outline/>
+[^firstrun]: Library Carpentry workshop outline: <http://librarycarpentry.github.io/outline/>
 
 The material for each of these original lessons
 was developed primarily by the lead instructor for that lesson,
@@ -191,32 +216,54 @@ GitHub Pages[^ghpages] provided seamless free web hosting
 on top of the GitHub repositories already in use for lesson development
 enabling us to deliver this content openly on the web at no cost.
 
-[^ghpages]: <https://pages.github.com/>
+[^ghpages]: GitHub Pages: <https://pages.github.com/>
 
 Since then,
 13 Library Carpentry workshops have been organised,
 training well in excess of 250 librarians in 7 countries across 4 continents:
-in Australia, Canada, Denmark, Norway, South Africa, Switzerland, and the USA.
-During the [Mozilla Science Lab Global Sprint (2-3 June 2016)](https://science.mozilla.org/programs/events/global-sprint-2016),
+
+- In Australia, starting with the University of Queensland in June 2016[^aus]
+- In the USA, starting with a 5-day extensive course at UCSD in July 2016[^usa1] with an additional follow-up 2-day event at UC Berkeley in Oct 2016[^usa2]
+- In South Africa, starting with a workshop held at the Council for Scientific and Industrial Research, Pretoria Campus in August 2016[^sa1] and was followed up with the first ever virtual LC workshop done in collaboration with OpenCon 2016 Cape Town[^sa2]
+
+[^aus]: University of Queensland workshop: <https://software-carpentry.org/blog/2016/06/LCworkshop.html>
+[^usa1]: UCSD: <https://ucsdlib.github.io/2016-07-18-UCSD/>
+[^usa2]: UC Berkley: <http://www.tim-dennis.com/2016-10-10-UCB/>
+[^sa1]:  Council for Scientific and Industrial Research, Pretoria Campus: <https://cmacdonell.github.io/2016-08-25-CSIR/>
+[^sa2]:  OpenCon 2016 Cape Town <http://www.opencon2016.org/opencon_2016_cape_town>
+
+During the Mozilla Science Lab Global Sprint (2-3 June 2016)[^moz],
 an international team further developed module materials,
 added a new module on SQL (a relational database management language),
 assigned administrative roles required to support future development,
 and republished the materials using the Data Carpentry lesson template.
 Library Carpentry now has a distributed management and maintenance structure.
 
+[^moz]: Mozilla Science Lab Global Sprint: <https://science.mozilla.org/programs/events/global-sprint-2016>
+
 The Data Carpentry lesson template
 provided a consistent structure to the lessons
-and prompted the addition of a number of aspects which had previously been omitted due to time constraints, particularly
+and prompted the addition of a number of aspects
+which had previously been omitted due to time constraints,
+particularly a consistent set of learning objectives for each lesson.
 
 The material continues to develop,
 with the growing community regularly discussing issues and questions
 in a dedicated open online discussion channel[^gitter].
 
-[^gitter]: <https://gitter.im/weaverbel/LibraryCarpentry>
+[^gitter]: Library Carpentry gitter channel: <https://gitter.im/weaverbel/LibraryCarpentry>
+
+In November 2016, James Baker and the international Library Carpentry team
+were awarded the 2016 British Library Labs Teaching/Learning Award[^award].
+As well as the recognition of a job well-done,
+this award also came with a small cash prize
+which is being used to facilitate further workshops.
+
+[^award]: British Library Labs Awards: <http://labs.bl.uk/British+Library+Labs+Awards>
 
 # Challenges #
 
-## Enabling attendance ##
+## Scheduling ##
 
 There are some interesting challenges involved in making this type of training work.
 First and foremost,
@@ -262,8 +309,9 @@ Using full days makes the most efficient use of learners' (and instructors') tra
 separating them by two weeks reduces the impact of staff being away from the office
 for the two full days.
 
-Another lesson learned from SWC/DC is
-that it can be difficult for staff to justify to line managers
+## Getting Buy-in ##
+
+It can be difficult for staff to justify to line managers
 the value of taking time out of day-to-day activities for training in these skills.
 This is likely to be exacerbated for librarians,
 since software skills are traditionally held to be the preserve
@@ -277,21 +325,43 @@ We are also taking the time to explain the value of this training
 from a variety of different perspectives,
 to potential learners and their immediate and senior managers.
 
+## Finding instructors ##
+
 Another challenge is that of finding instructors
 with the right combination of experience and expertise.
+For the reasons described above,
+we prefer to have sessions led by librarians and information professionals
+whenever possible,
+with additional support provided by willing expert helpers.
+Both of these groups of people can be difficult to find.
 
+This becomes easier with the realisation that
+neither instructors nor helpers need necessarily be
+far ahead of the learners in their knowledge.
+It is common within the existing SWC/DC community
+for learners on one course
+to progress to being helpers and then instructors on later courses,
+and structures and mentoring schemes are being introduced
+to support this progression.
+The core of this programme is the instructor training course,
+which is aimed at those with no formal training in teaching
+and based on a sound modern understanding of learning and pedagogy.
 
-# Where are we now? #
+In many countries now, there is a small but growing base
+of SWC and DC instructors which can be called upon
+and we aim to develop a parallel community of Library Carpentry instructors.
+Indeed, an open instructor training course specifically aimed at librarians
+is being run in Portland, Oregon on May 4 & 5
+as part of the csv,conf conference[^csvconf],
+as a partnership between University of California Curation Centre
+and Software Carpentry.
 
-In November 2016, James Baker and the international Library Carpentry team
-were awarded the 2016 British Library Labs Teaching/Learning Award[^award].
-As well as the recognition of a job well-done,
-this award also came with a small cash prize
-which is being used to facilitate further workshops.
+[^csvconf]: Instructor training for librarians: <https://datapub.cdlib.org/2016/12/08/announcing-instructor-training-for-librarians/>
 
-[^award]: <http://labs.bl.uk/British+Library+Labs+Awards>
+In the meantime, these existing SWC and DC instructors
+often make willing and even enthusiastic Library Carpentry instructors.
 
-***TODO: Call to action!***
+# Where Next? #
 
 This is only the beginning!
 Library Carpentry is in its infancy
@@ -311,8 +381,8 @@ If you would like to contribute, you can:
 - Contribute material by updating existing lessons
   or creating new ones
 
-[^issues]: <https://github.com/data-lessons/librarycarpentry/issues>
-[^gitter2]: <https://gitter.im/weaverbel/LibraryCarpentry>
+[^issues]: Library Carpentry issue discussion: <https://github.com/data-lessons/librarycarpentry/issues>
+[^gitter2]: Library Carpentry gitter channel: <https://gitter.im/weaverbel/LibraryCarpentry>
 
 # Acknowledgements #
 
