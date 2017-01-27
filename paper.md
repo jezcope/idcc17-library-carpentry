@@ -77,7 +77,7 @@ but its current and most successful form is built on the following principles:
 
 [^swc]: <https://software-carpentry.org/scf/history/>
 
-Following the pilot course in London in ***TODO: month*** 2015,
+Following the pilot course in London in November 2015,
 @baker_library_2016 developed the following for Library Carpentry:
 
 > "Library Carpentry has four main guiding principles.
@@ -151,7 +151,7 @@ Between them, these skills provide a toolbox which can enable
 # Development of Library Carpentry #
 
 In its initial exploratory run,
-Library Carpentry took the form of [four three-hour sessions held at the City University London Centre for Information Science](http://librarycarpentry.github.io/outline/)
+Library Carpentry took the form of four three-hour sessions held at the City University London Centre for Information Science[^firstrun]
 across four successive Monday evenings.
 These sessions
 -- held in November 2015 and funded by the Software Sustainability Institute --
@@ -167,6 +167,8 @@ They covered:
 2. the Unix shell (a command line user interface)
 3. git (a version control tool)
 4. OpenRefine (an interactive data cleanup tool)
+
+[^firstrun]: <http://librarycarpentry.github.io/outline/>
 
 The material for each of these original lessons
 was developed primarily by the lead instructor for that lesson,
@@ -300,6 +302,17 @@ We need:
 - People willing to organise and run Library Carpentry courses
 - Library Carpentry instructors, both experienced and fresh (Software or Data Carpentry instructor certification is helpful but not required at this stage)
 - Technical experts and librarians to contribute
+
+If you would like to contribute, you can:
+
+- Join in the conversation on GitHub[^issues] or gitter[^gitter2]
+- Organise your own Library Carpentry course using the existing material
+  (don't forget to let us know: the community is there to support everyone)
+- Contribute material by updating existing lessons
+  or creating new ones
+
+[^issues]: <https://github.com/data-lessons/librarycarpentry/issues>
+[^gitter2]: <https://gitter.im/weaverbel/LibraryCarpentry>
 
 # Acknowledgements #
 
