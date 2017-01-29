@@ -30,7 +30,8 @@ in the related areas of data analysis and data management.
 However, less attention is currently paid to developing the data skills of librarians themselves:
 these skills are often brought in by recruitment in niche areas
 rather than considered as a wider development need for the library workforce,
-and are not widely recognised as important to the professional career development of librarians.
+and are not widely recognised as important
+to the professional career development of librarians.
 We believe that building computational and data science capacity *within* academic libraries
 will have direct benefits for both librarians and the users we serve.
 
@@ -38,9 +39,6 @@ These technical skills can be of direct value across a wide range of common libr
 For example, many roles involve updating and processing metadata in various systems,
 which can be tedious and error-prone when done manually
 but lends itself to automation when the skills to do so are available.
-In many cases all that is required is enough knowledge to recognise such opportunities
-and raise them with more technical colleagues for implementation.
-
 Reporting on complex, inconsistent and often messy datasets
 (such as usage statistics from different publishers)
 is another common task.
@@ -64,9 +62,10 @@ Library Carpentry[^lc] [@baker_library_2016] is
 a global effort to provide training to librarians
 in technical areas that have traditionally been seen as the preserve of
 researchers, IT support and systems librarians.
-Established non-profit volunteer organisations such as Software Carpentry [@wilson_software_2006] and Data Carpentry [@teal_data_2015]
---- below abbreviated to SWC and DC respectively ---
-offer introductory research software skills training with a focus on the needs and requirements of research scientists.
+Established organisations such as Software Carpentry [@wilson_software_2006] and Data Carpentry [@teal_data_2015]
+--- below abbreviated SWC and DC respectively ---
+offer introductory research software skills training
+with a focus on the needs and requirements of research scientists.
 Library Carpentry is a comparable introductory software skills training programme
 with a focus on the needs and requirements of library and information professionals.
 
@@ -109,26 +108,30 @@ Following the pilot course in London in November 2015,
 > This transmission of skills through professional networks seeks to turn trainees into trainers,
 > thereby also deepening the skill set of the community."
 
-The skills identified as being valuable to librarians include:
+Skills identified as being valuable to librarians include:
 
 Regular expressions
-: Regular expressions (or regexes) are a a concise and flexible system for
-  searching text and extracting key parts.
+: Regular expressions (or regexes) are a powerful, concise and flexible system
+  for searching text and extracting key parts.
+  They are the Swiss-army knife of the software world,
+  useful across a wide range of problems
+  and integrated into many other tools.
 
 Shell/command line
 : A command-line is an alternative way of interacting with a computer
   by typing in commands to be run,
   either one at a time or in batches.
   Although appearing intimidating to beginners,
-  the command-line is a powerful, flexible and efficient way to perform
-  data processing tasks,
-  especially when combining multiple commands into shell scripts or batch files.
+  the command-line is a powerful, flexible and efficient way
+  to perform data processing tasks,
+  especially when combining multiple commands
+  into shell scripts or batch files.
 
 Version control
-: The use of tools such as `git`[^git] and GitHub[^gh],
-  which enable the full version history of a set of files to be
-  tracked and shared,
-  including features to merge changes made by multiple collaborators
+: Tools such as `git`[^git] and GitHub[^gh]
+  enable the full version history of a set of files
+  to be tracked and shared,
+  including features to merge changes made by multiple collaborators.
   Version control is a foundational good practice
   for any kind of programming,
   however simple.
@@ -142,8 +145,7 @@ Databases
   opens up many new possibilities.
 
 OpenRefine
-: Originally developed at Google before being open-sourced,
-  OpenRefine is a powerful yet user-friendly data-cleaning tool.
+: OpenRefine is a powerful yet user-friendly data-cleaning tool.
   Features such as regular expressions and text clustering
   allow for flexible restructuring and error correction
   across hundreds of thousands of entries in minutes or even seconds.
@@ -152,23 +154,30 @@ Scripting languages
 : Modern high-level languages such as Python, Ruby, R and JavaScript
   have greatly lowered the barrier to entry for new programmers.
   Not only are they much more forgiving of mistakes than their predecessors,
-  they also come with huge toolboxes to help automate almost any task,
+  they also come with huge toolboxes to help with almost any task,
   whether built-in or developed by members of the community.
 
 [^git]: `git` version control system: <https://git-scm.org>
 [^gh]: GitHub: <https://github.com>
 
-Between them, these skills provide a set of tools of great value to the modern librarian.
+These skills provide a set of tools of great value to the modern librarian.
 For example, they may help a librarian to:
 
-- Automate common tasks, providing both a streamlined workflow and precise documentation of the process
+- Automate common tasks, providing both a streamlined workflow
+  and precise documentation of the process
+  to communicate with colleagues
 - Quickly reformat, convert and fix hundreds of thousands of metadata records
 - Unify inconsistent data for reporting, such as usage reports from multiple suppliers
 - Create a dashboard visualising key aspects of that cleaned data
-  that can be updated from live sources in seconds rather than hours of manual work
+  that can be updated from live sources in seconds
+  rather than hours of manual work
 
-These benefits, while attractive, can seem quite daunting to the beginner.
-However, even a small amount of insight into how computers work and what might be possible
+These benefits, while attractive, can seem daunting to the beginner.
+Library Carpentry therefore brings together groups of librarians
+with similar levels of experience who work together regularly
+to learn together and support each other in developing these new skills.
+Even if not every learner puts the skills into practice themselves
+a small amount of insight into how computers work and what might be possible
 can lead to improved communication with technical colleagues
 and a corresponding increase in the value placed on their expertise.
 In addition,
@@ -185,19 +194,19 @@ across four successive Monday evenings.
 These sessions
 -- held in November 2015 and funded by the Software Sustainability Institute --
 attracted 59 participants from 14 institutions in London and its environs.
-Lessons were team developed and team taught,
-and were published under a CC-BY license,
+Lessons were team-developed and team-taught,
+and were published under a CC-BY license[^cc-by],
 building on earlier material developed for
 the British Library Digital Scholarship Training Programme,
 Software Carpentry, and the Programming Historian.
-They covered:
-
-1. regular expressions (patterns that match character combinations)
-2. the Unix shell (a command line user interface)
-3. git (a version control tool)
-4. OpenRefine (an interactive data cleanup tool)
+They covered: 
+regular expressions;
+the Unix shell;
+git;
+and OpenRefine.
 
 [^firstrun]: Library Carpentry workshop outline: <http://librarycarpentry.github.io/outline/>
+[^cc-by]: Creative Commons Attribution license: <https://creativecommons.org/licenses/by/3.0/>
 
 The material for each of these original lessons
 was developed primarily by the lead instructor for that lesson,
@@ -205,11 +214,14 @@ in most cases a librarian or information professional
 who had relatively recently learned the material themselves.
 The material was then reviewed and improved
 through collaboration with experienced users of the relevant tools.
-This approach led to the material being well pitched for the audience,
+This approach led to the material being well-pitched for the audience,
 since the lead instructor was only a few steps ahead of the audience in their own learning
 and could readily identify potential pitfalls and common beginner mistakes
 that are often overlooked by more experienced teachers.
-The collaborative aspect ensured that in spite of the relative inexperience of the instructors
+The collaborative aspect ensured that,
+in spite of the relative inexperience of the instructors,
+the material taught was peer-reviewed and technically sound
+giving instructors and learners confidence.
 
 In practical terms,
 the materials were developed using GitHub as an online collaborative platform.
@@ -223,8 +235,8 @@ enabling us to deliver this content openly on the web at no cost.
 [^ghpages]: GitHub Pages: <https://pages.github.com/>
 
 Since then,
-13 Library Carpentry workshops have been organised,
-training well in excess of 250 librarians in 7 countries across 4 continents:
+19 Library Carpentry workshops have been organised,
+training over 300 librarians in 8 countries across 4 continents:
 
 - In Australia, starting with the University of Queensland in June 2016[^aus]
 - In the USA, starting with a 5-day extensive course at UCSD in July 2016[^usa1] with an additional follow-up 2-day event at UC Berkeley in Oct 2016[^usa2]
@@ -315,11 +327,17 @@ for the two full days.
 
 ## Getting Buy-in ##
 
-It can be difficult for staff to justify to line managers
+Many people, across all generations,
+have been unintentionally taught that computer skills
+are the preserve of a rare type of genius
+with only a chosen few able to conquer the machine,
+and that those outside this lucky few
+attempts to meddle will cause more harm than god.
+In addition,
+it can be difficult for staff to justify to line managers
 the value of taking time out of day-to-day activities for training in these skills.
 This is likely to be exacerbated for librarians,
-since software skills are traditionally held to be the preserve
-of systems librarians only,
+since software skills are traditionally expected of systems librarians only,
 and not necessary for other colleagues.
 
 Within the White Rose group of research libraries,
@@ -328,6 +346,9 @@ which we expect to smooth the way for individuals and teams making a case to att
 We are also taking the time to explain the value of this training
 from a variety of different perspectives,
 to potential learners and their immediate and senior managers.
+The Library Carpentry community is working hard to demystify computers
+and make these useful skills accessible to those
+who never thought they were within reach.
 
 ## Finding instructors ##
 
@@ -335,6 +356,7 @@ Another challenge is that of finding instructors
 with the right combination of experience and expertise.
 For the reasons described above,
 we prefer to have sessions led by librarians and information professionals
+with the relevant skills
 whenever possible,
 with additional support provided by willing expert helpers.
 Both of these groups of people can be difficult to find.
@@ -359,11 +381,10 @@ is being run in Portland, Oregon on May 4 & 5
 as part of the csv,conf conference[^csvconf],
 as a partnership between University of California Curation Centre
 and Software Carpentry.
+In the meantime, existing SWC and DC instructors
+often make willing and even enthusiastic Library Carpentry instructors.
 
 [^csvconf]: Instructor training for librarians: <https://datapub.cdlib.org/2016/12/08/announcing-instructor-training-for-librarians/>
-
-In the meantime, these existing SWC and DC instructors
-often make willing and even enthusiastic Library Carpentry instructors.
 
 # Where Next? #
 
@@ -388,8 +409,5 @@ If you would like to contribute, you can:
 [^issues]: Library Carpentry issue discussion: <https://github.com/data-lessons/librarycarpentry/issues>
 [^gitter2]: Library Carpentry gitter channel: <https://gitter.im/weaverbel/LibraryCarpentry>
 
-# Acknowledgements #
-
-
-
 # Bibliography #
+
