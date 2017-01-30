@@ -115,7 +115,7 @@ Regular expressions
   for searching text and extracting key parts.
   They are the Swiss-army knife of the software world,
   useful across a wide range of problems
-  and integrated into many other tools.
+  and integrated into many other tools: for example, in desktop applications such as Microsoft Word and programming languages such as Python.
 
 Shell/command line
 : A command-line is an alternative way of interacting with a computer
@@ -144,7 +144,7 @@ Databases
   and a little knowledge of the Structured Query Language (SQL) used to access them
   opens up many new possibilities.
 
-OpenRefine
+Data-Cleaning
 : OpenRefine is a powerful yet user-friendly data-cleaning tool.
   Features such as regular expressions and text clustering
   allow for flexible restructuring and error correction
@@ -181,7 +181,7 @@ a small amount of insight into how computers work and what might be possible
 can lead to improved communication with technical colleagues
 and a corresponding increase in the value placed on their expertise.
 In addition,
-creation of communities of practice is an explicit aim of Library Carpentry training
+the creation of communities of practice is an explicit aim of Library Carpentry training
 so that learners are empowered to continue exploring and learning with their colleagues.
 The skills described above, while being more than adequate for some,
 can provide a platform for others on which they can continue to build.
@@ -378,8 +378,7 @@ of SWC and DC instructors which can be called upon
 and we aim to develop a parallel community of Library Carpentry instructors.
 Indeed, an open instructor training course specifically aimed at librarians
 is being run in Portland, Oregon on May 4 & 5
-as part of the csv,conf conference[^csvconf],
-as a partnership between University of California Curation Centre
+as part of the csv,conf conference[^csvconf]. This course is a partnership between University of California Curation Centre
 and Software Carpentry.
 In the meantime, existing SWC and DC instructors
 often make willing and even enthusiastic Library Carpentry instructors.
@@ -397,6 +396,7 @@ We need:
 - People willing to organise and run Library Carpentry courses
 - Library Carpentry instructors, both experienced and fresh (Software or Data Carpentry instructor certification is helpful but not required at this stage)
 - Technical experts and librarians to contribute
+- Use cases for the application software skills in libraries. Library Carpentry lessons and exerices reflect the library practice we know of. The more potential use cases you tell us about, the better Library Carpentry can reflect the diversity of modern librarianship.
 
 If you would like to contribute, you can:
 
