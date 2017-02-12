@@ -115,7 +115,9 @@ Regular expressions
   for searching text and extracting key parts.
   They are the Swiss-army knife of the software world,
   useful across a wide range of problems
-  and integrated into many other tools: for example, in desktop applications such as Microsoft Word and programming languages such as Python.
+  and integrated into many other tools:
+  for example, in desktop applications such as Microsoft Word
+  and programming languages such as Python.
 
 Shell/command line
 : A command-line is an alternative way of interacting with a computer
@@ -378,7 +380,8 @@ of SWC and DC instructors which can be called upon
 and we aim to develop a parallel community of Library Carpentry instructors.
 Indeed, an open instructor training course specifically aimed at librarians
 is being run in Portland, Oregon on May 4 & 5
-as part of the csv,conf conference[^csvconf]. This course is a partnership between University of California Curation Centre
+as part of the csv,conf conference[^csvconf].
+This course is a partnership between University of California Curation Centre
 and Software Carpentry.
 In the meantime, existing SWC and DC instructors
 often make willing and even enthusiastic Library Carpentry instructors.
@@ -394,9 +397,13 @@ and only starting to grow through the hard work of a growing number of volunteer
 We need:
 
 - People willing to organise and run Library Carpentry courses
-- Library Carpentry instructors, both experienced and fresh (Software or Data Carpentry instructor certification is helpful but not required at this stage)
+- Library Carpentry instructors, both experienced and fresh:
+  Software or Data Carpentry instructor certification is helpful but not required at this stage
 - Technical experts and librarians to contribute
-- Use cases for the application software skills in libraries. Library Carpentry lessons and exerices reflect the library practice we know of. The more potential use cases you tell us about, the better Library Carpentry can reflect the diversity of modern librarianship.
+- Use cases for the application software skills in libraries.
+  Library Carpentry lessons and exerices reflect the library practice we know of.
+  The more potential use cases you tell us about,
+  the better Library Carpentry can reflect the diversity of modern librarianship.
 
 If you would like to contribute, you can:
 
