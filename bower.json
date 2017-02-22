@@ -1,0 +1,22 @@
+{
+  "name": "idcc17-library-carpentry",
+  "homepage": "https://github.com/jezcope/idcc17-library-carpentry",
+  "description": "Paper on Library Carpentry for IDCC17",
+  "main": "",
+  "authors": [
+    "Jez Cope",
+    "James Baker"
+  ],
+  "license": "CC-BY",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "https://github.com/jezcope/reveal.js.git#feature/tuos-theme"
+  }
+}
