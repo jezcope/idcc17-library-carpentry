@@ -1,4 +1,4 @@
-.PHONY: all clean odt pdf
+.PHONY: all clean odt pdf html
 
 PANDOC_SLIDE_LEVEL := 2
 
@@ -36,4 +36,4 @@ ${SUBMISSION_NAME}.zip: paper.tex paper.pdf
 	zip $@ $?
 
 clean:
-	rm -f abstract.odt abstract-anon.odt abstract.pdf paper.pdf paper.tex ${SUBMISSION_NAME}.zip
+	rm -f abstract.odt abstract-anon.odt abstract.pdf paper.pdf paper.tex slides.html ${SUBMISSION_NAME}.zip
