@@ -1,7 +1,7 @@
-*.pdf
-*.zip
-abstract.odt
-abstract-anon.odt
-paper.tex
+/*.pdf
+/*.zip
+/abstract.odt
+/abstract-anon.odt
+/paper.tex
 bower_components
-slides.html
+/slides.html
