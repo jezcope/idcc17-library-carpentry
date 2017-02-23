@@ -1,4 +1,4 @@
-Extended abstract and practice paper on Library Carpentry for submission to [IDCC2017][] in Edinburgh.
+Extended abstract and practice paper on Library Carpentry for submission to [IDCC17][] in Edinburgh.
 
 See [`abstract.md`](abstract.md) and [`paper.md`](paper.md) for more info.
 
